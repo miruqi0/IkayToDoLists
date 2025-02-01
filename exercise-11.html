@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>To Do List</title>
+        <link rel="stylesheet" href="exercise-11.css">
+    </head>
+    <body>
+        <p>To Do List</p>
+        <div class="container">
+            <div class="header-list">
+                <div>
+                    <select class="selection">
+                        <option value="P.E." selected="yes">P.E.</option>
+                        <option value="NSTP">NSTP</option>
+                        <option value="DisMath">DisMath</option>
+                        <option value="HCI">HCI</option>
+                        <option value="Prog">Prog</option>
+                        <option value="PlatTech">PlatTech</option>
+                        <option value="UTS">UTS</option>
+                        <option value="PAL">PAL</option>
+                    </select>
+                </div>
+                <div>
+                    <input class="input-list" placeholder="To Do Name">
+                </div>
+                <div>
+                    <input class="input-date" type="date">
+                </div>
+                <div>
+                    <button class="add-button" onclick="addToDo();">Add</button>
+                </div>
+            </div>
+            <div class="show-list">
+            </div>
+        </div>
+            
+        <script src="exercise-11.js"></script>
+    </body>
+</html>
